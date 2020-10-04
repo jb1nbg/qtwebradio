@@ -1,0 +1,124 @@
+﻿QWidget
+{
+    background-color: lightgray;
+    color: black;
+    font: bold 18px;
+}
+
+QDialog#Clock
+{
+    background-color: lightgray;
+}
+
+QDialog#Clock QLabel#labelTime, QLabel#labelDate {
+    background-color: lightgray;
+    color: block;
+}
+
+QDialog#Clock QLabel#labelTime {
+    font: bold 90px;
+}
+
+QDialog#Clock  QLabel#labelDate {
+    font: bold 56px;
+}
+
+QSlider {
+    margin: 15px 0 0 0;
+    background-color: transparent;
+}
+
+QSlider::groove:vertical {
+    border: 1px solid lightgray;
+    background: blue;
+    width: 20px;
+    margin: 0;
+}
+
+QSlider::handle:vertical {
+    background: black;
+    border: 1px solid white;
+    height: 10px;
+    width: 10px;
+    margin: 0 -5px;
+    border-radius: 6px;
+}
+
+QGroupBox
+{
+    font: bold 10px;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+}
+
+QPushButton
+{
+    border: none;
+    margin: 0px;
+    padding: 10px;
+    outline: none;
+    min-width: 30px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+}
+
+QPushButton::pressed
+{
+    border: none;
+    outline: none;
+    background-color: darkblue;
+    color: white;
+}
+
+QPushButton#pushButtonOk::focus
+{
+    background-color: darkblue;
+}
+
+QPushButton#pushButtonUp,QPushButton#pushButtonDown
+{
+    margin-left: 10px;
+    background-color: lightblue;
+}
+
+QPushButton#pushButtonToggleFavorite
+{
+    margin-left: 10px;
+}
+
+QLabel#labelCategory,QLabel#labelCategoryItem
+{
+    margin-bottom: 20px;
+    font: bold 24px;
+}
+
+QListWidget
+{
+    selection-background-color: blue;
+    selection-color: white;
+}
+
+QListWidget::item
+{
+    height: 40px;
+}
+
+QProgressBar
+{
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 2px 7px 2px 7px;
+}
+
+QProgressBar::chunk
+{
+    border: 1px solid grey;
+    border-radius: 1px;
+    background-color: lightblue;
+    width: 3px;
+    margin: 0.5px;
+    text-align: center;
+}

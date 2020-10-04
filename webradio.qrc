@@ -1,0 +1,17 @@
+﻿<RCC>
+    <qresource prefix="/">
+        <file alias="style">style.css</file>
+    </qresource>
+    <qresource prefix="/images">
+        <file>images/down.png</file>
+        <file>images/favorite.png</file>
+        <file>images/play.png</file>
+        <file>images/stop.png</file>
+        <file>images/up.png</file>
+        <file>images/no_favorite.png</file>
+        <file>images/home.png</file>
+        <file>images/mute.png</file>
+        <file>images/bluetooth.png</file>
+        <file>images/equalizer.png</file>
+    </qresource>
+</RCC>
